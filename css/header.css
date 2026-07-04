@@ -1,0 +1,38 @@
+
+ .header {
+      border-bottom: 1px solid #e7e9fc;;
+      height: 72px;
+      padding: 24px 15px ;
+ }
+ .header-nav {
+      font-weight: 500;
+ }
+
+ .header-nav-list{
+      width: 253px;
+      align-items: center;
+      justify-content: space-between;
+ }
+
+ .address-list {
+      width: 344px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+ }
+
+ .header-address {
+     font-weight: 400;
+ }  
+
+ .header-nav-item {
+     color: #2e2f42;
+ }
+ .header-nav-link:hover,
+ .header-nav-link:focus,
+ .header-address-link:hover,
+ .header-address-link:focus {
+     color: #404BBF;
+ }
+
+ 
