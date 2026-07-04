@@ -2,21 +2,24 @@
  .header {
       border-bottom: 1px solid #e7e9fc;;
  }
+
+ .header .logo {
+      padding: 24px 0;
+ } 
  .header-nav {
       font-weight: 500;
-      padding: 24px 0;
       margin-left: 76px;
       margin-right: auto;
  }
 
  .header-nav-list{
       justify-content: flex-start;
-      gap: 40px;
+      gap: 40px;     
  }
 
  .address-list {
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
       gap: 40px;
  }
 
@@ -32,6 +35,11 @@
  .header-address-link:hover,
  .header-address-link:focus {
      color: #404BBF;
+ }
+ .header-nav-link,
+ .header-address-link {
+   display: block;
+   padding: 24px 0;
  }
 
  
