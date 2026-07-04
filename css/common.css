@@ -44,6 +44,7 @@ address {
 
 button {
     font-family: inherit;
+    border: none;
 }
 
 h2,h3 {
@@ -92,18 +93,18 @@ h3 {
    padding: 0px 15px;
    margin: 0 auto;
    width: 1158px;
-
  }
 
  .flex-cont {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
  }
 
  .section {
     padding: 120px 0;
  }
+ 
 .sr-only {
     position: absolute;
     white-space: nowrap;

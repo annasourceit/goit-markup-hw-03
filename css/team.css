@@ -1,6 +1,10 @@
 .team {
     background-color: #f4f4fd;
 }
+.team-list {
+    justify-content: flex-start;
+    gap: 24px;
+}
 .team-list-item {
     background-color: #fff;
     width: 264px;

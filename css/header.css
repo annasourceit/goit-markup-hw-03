@@ -1,21 +1,20 @@
 
  .header {
       border-bottom: 1px solid #e7e9fc;;
-      height: 72px;
-      padding: 24px 15px ;
  }
  .header-nav {
       font-weight: 500;
+      padding: 24px 0;
+      margin-left: 76px;
+      margin-right: auto;
  }
 
  .header-nav-list{
-      width: 253px;
-      align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
+      gap: 40px;
  }
 
  .address-list {
-      width: 344px;
       align-items: center;
       justify-content: space-between;
       gap: 40px;
